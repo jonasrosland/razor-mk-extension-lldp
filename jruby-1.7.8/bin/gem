@@ -1,0 +1,4 @@
+#!/home/vagrant/.rbenv/versions/jruby-1.7.8/bin/jruby
+
+# Just load jgem, since that's what RubyGems updates.
+load File.join(File.dirname(__FILE__), 'jgem')

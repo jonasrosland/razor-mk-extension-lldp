@@ -1,0 +1,5 @@
+#!/home/vagrant/.rbenv/versions/jruby-1.7.8/bin/jruby
+require 'test/unit'
+(r = Test::Unit::AutoRunner.new(true)).process_args(ARGV) or
+  abort r.options.banner + " tests..."
+exit r.run
