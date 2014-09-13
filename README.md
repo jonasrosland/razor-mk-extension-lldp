@@ -25,4 +25,4 @@ All the binaries and libraries are distributed as-is, with no guarantee or warra
 
 ### More information
 
-Can be found at http://wp.me/p2F14Y-kh
+Can be found at http://purevirtual.eu/2014/09/12/server-locality-using-razor-and-lldp/
