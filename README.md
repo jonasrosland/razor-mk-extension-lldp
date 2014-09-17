@@ -16,7 +16,7 @@ Essentially just a few basic things:
  - A directory with "bin", "lib" and "lib/ruby" folders
  - Fedora binaries for lldpad, lldptool and dcbtool from the lldpad RPM put in the "bin" folder
  - Fedora libraries from RPMs for libconfig.so.9, liblldp_clif.so.1 and libnl.so.1 put in the "lib" folder
- - A modified version of the openlldp.rb file that allows you to run the lldpad daemon for a set time to be able to grab the LLDP information and push it back as facts to the Razor server, put in the "lib/ruby" folder
+ - A modified version of the [openlldp.rb](https://github.com/razorsedge/puppet-openlldp/blob/master/lib/facter/openlldp.rb) file from the [razorsedge/openlldp](https://forge.puppetlabs.com/razorsedge/openlldp) module that allows you to run the lldpad daemon for a set time to be able to grab the LLDP information and push it back as facts to the Razor server, put in the "lib/ruby" folder
 
 They are all available in the zip file, which is just a compressed version of everything in the repo.
 
